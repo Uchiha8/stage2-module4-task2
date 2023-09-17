@@ -14,6 +14,7 @@ public class ConnectionPool {
     private static final String PASSWORD = "password";
     private static ConnectionPool instance;
     private Queue<ProxyConnection> freeConnections;
+
     private Queue<ProxyConnection> usedConnections;
 
     private ConnectionPool() {
